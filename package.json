@@ -1,10 +1,10 @@
 {
   "name": "mongo-shopping-list",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "Diya",
   "license": "ISC",
@@ -17,5 +17,17 @@
     "chai": "^3.5.0",
     "chai-http": "^3.0.0",
     "mocha": "^3.1.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Diya007/mongo-shopping-list.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Diya007/mongo-shopping-list/issues"
+  },
+  "homepage": "https://github.com/Diya007/mongo-shopping-list#readme",
+  "description": ""
 }
