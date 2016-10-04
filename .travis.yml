@@ -8,3 +8,10 @@ addons:
     - mongodb-3.2-precise
     packages:
     - mongodb-org-server
+deploy:
+  provider: heroku
+  api_key:
+    secure: b2qcZzw3W81ZT3+yd0NBTcUFuUI91ufFGdO+XSyVLe5uJ7hEEctLsiDYLGiDMCjJrxLHbF72Eke++UHBclE+DYFvSejbcA3CGu1bQzLsdGdM0dd8nA6RiQ69+Hc+7qhhV4ao1nkZQ8o5fIrn9iv7x6G8NZFr+3A74riBs53gxo6RNEL4CgznwTo/NjXaYM6geSWtoFkkqpyuh5Wy+unvzRFJI3y047zhVY/d1+qsSnLYytubmikXHkeHAl81XLDyW9uQfwdoHouplyRRcXGqWVmQqEPnbLsN37wVvb+htSN8MXPbcYCU1VkHpc+dMOSWMetpfmV2A4nIj6VHk92wx3pRj3Slpzi7HcnzYlQs9UgCHP1cDyFezSg9X/tW/41kK78Ah8npzvaglUIucqDKFCUW9o65bWOj5a2/WnhjGv+Aw/IWVRgHt4JZqoZSVEDaypoK0jgbKby0aAVy2kKZHpcsE1milYM6SLElBzNsin77xzDIjOZvG9l2qDX2UXHSpuv1YY1dFuX+Ohc0bjEK1EBEosGjEI0RIM+MNuoCt6SX99vociDmQia8R3LaMD4biU82zRms7wPsfJRC4CGZSVGiN1FGN+Fy4WX7yYlUsY7UqAnXnDwJR/CBB5xgApIMuOKNJqZbj5MCttdfA2OSM3X8KekJT/qZdI0p6VSu42I=
+  app: arcane-taiga-75027
+  on:
+    repo: Diya007/mongo-shopping-list
