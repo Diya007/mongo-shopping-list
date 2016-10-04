@@ -50,16 +50,13 @@ describe('Shopping List',function() {
        .send({'name':'Diya'})
        .end(function(err,res){
         should.equal(err,null);
-        res.should.be.josn;
+        res.should.be.json;
         res.body.should.be.a('object');
         res.body.should.have.property('name');
         res.body.name.should.be.a('string');
+        res.body.should.have.property('name');
+        res.body.name.should.equal('Diya');
         
-        //res.body[3].should.have.property('name');
-        res.body[3].name.should.be.a('string');
-        // res.body[0].name.should.equal('Broad beans');
-        // res.body[1].name.should.equal('Tomatoes');
-        // res.body[2].name.should.equal('Peppers');
         
         
         done();
